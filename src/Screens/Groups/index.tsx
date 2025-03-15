@@ -1,9 +1,15 @@
-import { Container, Title } from "./styles";
+import { View, Text } from "react-native";
+import { Container, Title, Teste } from "./styles";
 
 export default function Groups() {
   return (
-    <Container>
-      <Title>Groups</Title>
-    </Container>
+    <>
+      <Teste>
+        <Title>Groups</Title>
+      </Teste>
+      <Container>
+        <Title>Groups</Title>
+      </Container>
+    </>
   );
 }
